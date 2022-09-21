@@ -19,52 +19,87 @@ p.song{
     width: 20%;
     font: italic;
 }
- h4.ANGELA{
+ h4.ANGELA:hover{
     color: darkmagenta;
     font-size:medium;
     font: 20px;
+    color: coral;
+  text-shadow: khaki;
+    
  }
 
- h4.GROS{
+ h4.BUNTHORNE:hover{
+    color: darkmagenta;
+    font-size:medium;
+    font: 20px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+
+ h4.PATIENCE:hover{
+    color:blueviolet;
+    font-size:medium;
+    font: 20px;
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  box-shadow: 10px 10px 5px 12px lightblue;
+ }
+
+ h4.GROS:hover{
     color: forestgreen;
     font-size:medium;
     font: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  box-shadow: 10px 10px 5px 12px lightblue;
  }
 
- h4.JANE{
+ h4.JANE:hover{
     color: blue;
     font-size:medium;
     font: 30px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
 
- h4.BUN{
+ h4.BUN:hover{
     color:coral;
     font-size:medium;
     font: 30px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;:
  }
 
- h4.MAIDENS{
+ h4.MAIDENS:hover{
     color: darkcyan;
     font-size:medium;
     font: 30px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
 
- h4.SAPHIR{
+ h4.SAPHIR:hover{
     color:greenyellow;
     font-size:medium;
     font:30px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
- h4.ELLA{
+ h4.ELLA:hover{
     color:brown;
     font-size:medium;
     font:30px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  box-shadow: 10px 10px 5px 12px lightblue;
 
  }
 
- h4.GROSVENOR{
+ h4.GROSVENOR:hover{
     color: crimson;
     font-size:medium;
     font:30px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
 
 h4:hover{
@@ -73,15 +108,14 @@ h4:hover{
     font: 30px;
 }
 
-
-.directions:hover{
+p.directions:hover{
     background-color: blanchedalmond;
     color: cornflowerblue;
 }
 
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
   }
   
   th, td {
@@ -101,6 +135,8 @@ table {
         color: azure;
         
 }
+
+
  
 
 
